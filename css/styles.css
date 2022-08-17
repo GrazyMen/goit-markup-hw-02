@@ -166,6 +166,10 @@
 }
 /* Footer */
 
+.footer .link-map:hover,
+.footer .link-map:focus {
+  color: var(--accent-color);
+}
 .footer .link:hover,
 .footer .link:focus {
   color: var(--accent-color);
@@ -175,7 +179,7 @@
   background-color: var(--background-titles-color);
 }
 
-.footer-map {
+.footer, .link-map {
   color: var(--background-main-color);
   font-family: 'Roboto';
   font-style: normal;
@@ -186,7 +190,7 @@
   text-decoration: none;
 }
 
-.footer-nav {
+.footer, .link {
   color: var(--footer-text-color);
   font-family: 'Roboto';
   font-style: normal;

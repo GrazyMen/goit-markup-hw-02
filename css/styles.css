@@ -101,9 +101,7 @@
   background-color: var(--accent-color);
 }
 /* Feature-list */
-.fuature-list{
-  list-style: none;
-}
+
 .section-title .fuature {
   color: var(--title-text-color);
 }
@@ -124,6 +122,8 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.fuature-list{
+  list-style: none;}
 
 /* Examples */
 

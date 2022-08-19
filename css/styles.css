@@ -44,7 +44,6 @@
 }
 
 /* Site-nav */
-
 .site-nav .link {
   color: var(--title-text-color);
 
@@ -102,6 +101,9 @@
   background-color: var(--accent-color);
 }
 /* Feature-list */
+.fuature-list{
+  list-style: none;
+}
 .section-title .fuature {
   color: var(--title-text-color);
 }

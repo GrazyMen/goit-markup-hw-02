@@ -102,6 +102,7 @@
 }
 /* Feature-list */
 
+
 .section-title .fuature {
   color: var(--title-text-color);
 }
@@ -122,8 +123,7 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.fuature-list{
-  list-style: none;}
+
 
 /* Examples */
 

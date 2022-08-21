@@ -18,10 +18,12 @@
   --footer-text-color: rgba(255, 255, 255, 0.6);
 }
 
-.body {
+body {
   background-color: var(--background-main-color);
   color: var(--title-text-color);
   font-family: roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 .logo {
@@ -93,6 +95,7 @@
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero-title-1 .link:hover,
@@ -126,7 +129,9 @@
 
 
 /* Examples */
-
+.section-2 {
+  background-color: var(--background-secondary-color);
+}
 .examples {
   color: var(--title-text-color);
 }
@@ -138,11 +143,11 @@
   letter-spacing: 0.03em;
 }
 /* Team */
-
+.visually-hidden {
+  font-size: 0;
+}
 .team-title {
   color: var(--title-text-color);
-  background-color: var(--background-secondary-color);
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -210,13 +215,14 @@
 .button {
   color: var(--background-main-color);
   background-color: var(--accent-color);
-
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.62;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.06em;
   font-family: inherit;
+  cursor: pointer;
 }
+
 
 /* Portfolio */
 
@@ -230,6 +236,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   font-family: inherit;
+  cursor: pointer;
 }
 
 .title-g {

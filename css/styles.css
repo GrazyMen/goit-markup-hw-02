@@ -129,9 +129,6 @@ body {
 
 
 /* Examples */
-.section-2 {
-  background-color: var(--background-secondary-color);
-}
 .examples {
   color: var(--title-text-color);
 }
@@ -143,6 +140,9 @@ body {
   letter-spacing: 0.03em;
 }
 /* Team */
+.section-2 {
+  background-color: var(--background-secondary-color);
+}
 .visually-hidden {
   font-size: 0;
 }
